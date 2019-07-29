@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:title="@android:string/search_go"
+        android:icon="@drawable/icons_search"
+        yourapp:showAsAction="always|collapseActionView"
+         />
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/icon_toolbar_edit"
+        yourapp:showAsAction="ifRoom"
+        android:title="" />
+    <item
+        android:id="@+id/action_micro"
+        android:title="@string/microphone"
+        android:icon="@drawable/icon_toolbar_micro"
+        yourapp:showAsAction="always" />
+    <item
+        android:id="@+id/action_remove"
+        android:title="@string/remove"
+        android:icon="@drawable/icon_toolbar_remove"
+        yourapp:showAsAction="always" />
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/icon_toolbar_sort"
+        yourapp:showAsAction="always" />
+</menu>
